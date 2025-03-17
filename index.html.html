@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Eswar Cheemala, an Electronics & AI Enthusiast and Embedded Systems Developer.">
+    <meta name="keywords" content="Eswar Cheemala, Portfolio, Electronics, AI, Embedded Systems">
+    <meta name="author" content="Eswar Cheemala">
+    <title>Eswar Cheemala - Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            text-align: center;
+            background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff9a3c;
+        }
+        #hero {
+            padding: 120px 20px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        #hero img {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            border: 4px solid white;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+            margin-top: 20px;
+        }
+        section {
+            padding: 80px 50px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            background: #ff9a3c;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .btn:hover {
+            background: #ff5722;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <img src="C:\Users\asus\Downloads\Eswar's photo.jpg" alt="Eswar Cheemala">
+        <h1>Eswar Cheemala</h1>
+        <p>Electronics & AI Enthusiast | Embedded Systems Developer</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Intern at Canspirit.ai (July 2023 – March 2025)</h3>
+        <ul>
+            <li>Optimized real-time person detection on Raspberry Pi 5, reducing inference time from 300ms to under 20ms.</li>
+            <li>Achieved 99% accuracy in people detection by fine-tuning YOLOv8 and Detectron2 models.</li>
+            <li>Developed an AI-based surveillance system, integrating CCTV cameras for automated people counting.</li>
+            <li>Implemented multiprocessing and hardware acceleration, achieving 60% faster inference speeds.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>RFID-Based Smart Traffic Signal System</h3>
+        <ul>
+            <li>Designed an adaptive traffic signal control system prioritizing emergency vehicles using RFID and sound detection.</li>
+            <li>Integrated RFID readers, sound sensors, and microcontrollers to automate traffic signal adjustments.</li>
+        </ul>
+        <h3>3D UE5 Game Creation</h3>
+        <ul>
+            <li>Developed a 3D obstacle course game in Unreal Engine 5 with gesture-based controls using MPU6050.</li>
+            <li>Integrated real-time motion detection for an immersive gaming experience.</li>
+        </ul>
+        <h3>Robotic Arm Project</h3>
+        <ul>
+            <li>Designed and programmed a robotic arm for lifting tasks controlled via a mobile app.</li>
+            <li>Implemented inverse kinematics for precise motion control and efficiency.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:eswar.c2004@gmail.com" class="btn">Email Me</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/eswarcheemala" class="btn">View LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Eswarcheemala" class="btn">View GitHub</a></p>
+    </section>
+</body>
+</html>
